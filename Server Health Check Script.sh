@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "CPU Usage:"
+echo "1. CPU Usage:"
 top -bn1 | grep "Cpu(s)"
 
-echo "\nMemory Usage:"
+echo "2. \nMemory Usage:"
 free -h
 
-echo "\nDisk Usage:"
+echo "3. \nDisk Usage:"
 df -h

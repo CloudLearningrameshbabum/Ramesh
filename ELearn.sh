@@ -1,0 +1,1 @@
+echo " learning is easy with interest to achive the goal"

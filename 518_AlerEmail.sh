@@ -8,7 +8,7 @@ ALERT_MSG="/tmp/alert.txt"
 
 send_alert() {
   SUBJECT="🚨 Server Alert on $HOSTNAME"
-  mail -s "$SUBJECT" "$ADMIN" >> "$ALERT_MSG"
+  mail -s "$SUBJECT" "$ADMIN" > "$ALERT_MSG"
 }
 
 echo "System Health Report - $DATE"

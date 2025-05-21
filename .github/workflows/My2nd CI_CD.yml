@@ -1,0 +1,8 @@
+name: Second
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "This is my 2nd CI/CD Pipeline with Git Actions"
